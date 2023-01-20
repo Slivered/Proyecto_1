@@ -258,3 +258,4 @@ def semejanza(lista1, lista2):
         else:
             lista.append(False)
     return lista
+
