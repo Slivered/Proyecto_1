@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-
+#This function runs my Seleneum.
 def busqueda(lib,lista):
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get("https://www.goodreads.com/")
@@ -218,38 +218,84 @@ def busqueda(lib,lista):
             lista.append("No tiene libro")
 
 
-#Función para tener ordenadas las listas de listas scrapeadas.
+
+#Function that transforms the scrapped list of lists into something usable.
 def listas_libros(libros):
+    """
+
+    Args:
+        libros (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     lista_libros=[]
     for i in range(4):
         lista = [libro[i] for libro in libros]
         lista_libros.append(lista)
     return lista_libros
 
-#Función para limpiar los votos de los usuarios.
+
+#Function that cleans the user votes.
 def limpieza_votos(votos):
+    """_summary_
+
+    Args:
+        votos (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     a = votos.split(" ")[0]
     if a == "No":
         return None
     else:
         return float(a.replace(",","").replace(".",""))
 
-#Función para limpiar las notas promedio de los libros.
+
+#Function that cleans the avg. rating of the scrapped books.
 def promedio(rating):
+    """_summary_
+
+    Args:
+        rating (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     if rating == "No tiene nota media":
         return None
     else:
         return float(rating)
 
-#Función para limpiar los autores.
+
+#Functions that cleans the Author column.
 def Autor(au):
+    """_summary_
+
+    Args:
+        au (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     if au == "No tiene autor":
         return None
     else:
         return au
 
-#Fuzzy_wuzzy para filtrar las peliculas que coinciden con los libros.
+
+#Function that uses Fuzzy_wuzzy that compares the name of the books to its movies and gives me a True if it meets my desired target.
 def semejanza(lista1, lista2):
+    """_summary_
+
+    Args:
+        lista1 (_type_): _description_
+        lista2 (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     lista = []
     for (a,b) in zip(lista1, lista2):
         porcentaje = fuzz.ratio(a,b)
