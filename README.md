@@ -43,7 +43,7 @@ It's a very polemic topic as many people defend that book versions are allways t
 * And what about popularity? Are movies more popular than books? or the original version is actually the more poppular version?.
 Well, the answer is simple, movies are more popular than books, maybe  becouse it's easyer to watch a 2h movie than to read a 20h book or maybe there are other reasons that influence the popularity of these books and movies, but that's an analysis for another day.
 
-* Lastly maybe the biggest question of them all: What has the best average rating? is it the movie adaptation? or is it actually the original books?. To see the answer of this question and more i invite you to see my [conclusion.me](https://github.com/Slivered/Proyecto_ETL/blob/main/Conclusions/Conclusions.md) notebook that has all of the answers.
+* Lastly maybe the biggest question of them all: What has the best average rating? is it the movie adaptation? or is it actually the original books?. To see the answer of this question and more i invite you to see my [conclusion](https://github.com/Slivered/Proyecto_ETL/blob/main/Conclusions/Conclusions.md) notebook that has all of the answers.
 
 ## Tools.
 
@@ -51,7 +51,7 @@ Well, the answer is simple, movies are more popular than books, maybe  becouse i
 * [Numpy](https://numpy.org/doc/stable/) is the fundamental package for scientific computing in Python.
 * [Pickle](https://docs.python.org/3/library/pickle.html) is used to store safely a list outside of your notebook, so if your kernel shuts down you won't lose any data.
 * [Selenium](https://www.selenium.dev/documentation/webdriver/) is a web scraping tool and it's great for automating your webscraping
-* [Fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/)it's an incredible tool used to match strings and keep the most similar string you desire.
+* [Fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) it's an incredible tool used to match strings and keep the most similar string you desire.
 * [pymysql](https://dev.mysql.com/doc/) is the DataBase that ill be using for this project.
 * [sqlalchemy](https://docs.sqlalchemy.org/en/14/) is used to work with mysql through python and make querys.
 * [Getpass](https://docs.python.org/3/library/getpass.html) is used to hide your mysql password.
