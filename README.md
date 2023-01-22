@@ -28,6 +28,8 @@ It's a very polemic topic as many people defend that book versions are allways t
 
 * I needed a few functions to clean the movies dataset and aswell to run my seleneum so i decided to use a data pipeline to keep the code cleaner and clearer, its called [Resources.py](https://github.com/Slivered/Proyecto_ETL/blob/main/rsc/Resources.py) inside rsc folder.
 
+* When i had all my data scraped i needed to filter it to know if it actually were the books for the movies i wanted to compare to them so i used FuzzyWuzzy as its a great tool to compare strings.
+
 * After i prepared all of this data i used it to make a few graphs to represent the questions i had and i made my conclusions based on them.
 
 ## Conclusions.
@@ -41,5 +43,16 @@ It's a very polemic topic as many people defend that book versions are allways t
 * And what about popularity? Are movies more popular than books? or the original version is actually the more poppular version?.
 Well, the answer is simple, movies are more popular than books, maybe  becouse it's easyer to watch a 2h movie than to read a 20h book or maybe there are other reasons that influence the popularity of these books and movies, but that's an analysis for another day.
 
-* Lastly maybe the biggest question of them all: What has the best average rating? is it the movie adaptation? or is it actually the original books?. To see the answer of this question and more i invite you to see my [conclusion.me](https://github.com/Slivered/Proyecto_ETL/blob/main/Conclusions/Conclusions.md) notebook that has all the of the answers.
-[pandas](https://pandas.pydata.org/docs/)
+* Lastly maybe the biggest question of them all: What has the best average rating? is it the movie adaptation? or is it actually the original books?. To see the answer of this question and more i invite you to see my [conclusion.me](https://github.com/Slivered/Proyecto_ETL/blob/main/Conclusions/Conclusions.md) notebook that has all of the answers.
+
+## Tools.
+
+* [Pandas](https://pandas.pydata.org/docs/) is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+* [Numpy](https://numpy.org/doc/stable/) is the fundamental package for scientific computing in Python.
+* [Pickle](https://docs.python.org/3/library/pickle.html) is used to store safely a list outside of your notebook, so if your kernel shuts down you won't lose any data.
+* [Selenium](https://www.selenium.dev/documentation/webdriver/) is a web scraping tool and it's great for automating your webscraping
+* [Fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/)it's an incredible tool used to match strings and keep the most similar string you desire.
+* [pymysql](https://dev.mysql.com/doc/) is the DataBase that ill be using for this project.
+* [sqlalchemy](https://docs.sqlalchemy.org/en/14/) is used to work with mysql through python and make querys.
+* [Getpass](https://docs.python.org/3/library/getpass.html) is used to hide your mysql password.
+* [Matplotlib](https://matplotlib.org/stable/index.html) was used to make the graphs.
