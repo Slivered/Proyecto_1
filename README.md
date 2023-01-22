@@ -1,5 +1,5 @@
 # ¿Pelicula o libro?
-[Sauron](images/Sauron.jpg)
+![Sauron](Images/eye.jpg)
 ## subtitulo
 ___
 ____
@@ -9,6 +9,6 @@ escribo mnas cosas
 
 salto de linea 
 
-![imgens](imagenes/nombreimg.png)
+![Grafica](Images/Top_Movies.png)
 
 [pandas](https://pandas.pydata.org/docs/)
