@@ -41,5 +41,5 @@ It's a very polemic topic as many people defend that book versions are allways t
 * And what about popularity? Are movies more popular than books? or the original version is actually the more poppular version?.
 Well, the answer is simple, movies are more popular than books, maybe  becouse it's easyer to watch a 2h movie than to read a 20h book or maybe there are other reasons that influence the popularity of these books and movies, but that's an analysis for another day.
 
-* Lastly maybe the biggest question of them all: What has the best average rating? is it the movie adaptation? or is it actually the original books?. To see the answer of this question and more i invite you to see my [conclusion.me]() notebook that has all the of the answers.
+* Lastly maybe the biggest question of them all: What has the best average rating? is it the movie adaptation? or is it actually the original books?. To see the answer of this question and more i invite you to see my [conclusion.me](https://github.com/Slivered/Proyecto_ETL/blob/main/Conclusions/Conclusions.md) notebook that has all the of the answers.
 [pandas](https://pandas.pydata.org/docs/)
