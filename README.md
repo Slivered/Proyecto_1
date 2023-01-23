@@ -10,7 +10,7 @@ It's a very polemic topic as many people defend that book versions are allways t
 
 ## Why?
 ---
- * Im currently attending the [Data Analitics](https://www.ironhack.com/en) bootcamp at IronHack  Madrid and this is my first project there.
+ * Im currently attending the Data Analitics bootcamp at [IronHack](https://www.ironhack.com/en) Madrid and this is my first project there.
 
  * I love reading books as well as seeing movies, so i thought this would be a great idea to start my programing career.
 
