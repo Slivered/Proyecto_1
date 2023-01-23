@@ -26,7 +26,7 @@ It's a very polemic topic as many people defend that book versions are allways t
 
 * The website that i used Seleneum on to scrap is called Goodreads, its a huge social media book website with lots of information about any book you could imagine, most likely if the book exists it's on Goodreads.
 
-* I needed a few functions to clean the movies dataset and aswell to run my seleneum so i decided to use a data pipeline to keep the code cleaner and clearer, its called [Resources.py](https://github.com/Slivered/Proyecto_ETL/blob/main/rsc/Resources.py) inside rsc folder.
+* I needed a few functions to clean the movies dataset and aswell to run my seleneum so i decided to use a data pipeline to keep the code cleaner and clearer, its called [Resources](https://github.com/Slivered/Proyecto_ETL/blob/main/rsc/Resources_New.py) inside rsc folder.
 
 * When i had all my data scraped i needed to filter it to know if it actually were the books for the movies i wanted to compare to them so i used FuzzyWuzzy as its a great tool to compare strings.
 
