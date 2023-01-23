@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import pickle
-
 from selenium import webdriver
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
@@ -12,7 +10,9 @@ import warnings
 warnings.filterwarnings('ignore')
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
+#This is part of my Seleneum function.
 def sel2(lista):
+    driver.implicitly_wait(4)
     driver.find_element("css selector","body > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.leftContainer > table > tbody > tr:nth-child(1) > td:nth-child(2) > a > span").click()
     driver.implicitly_wait(2)
     #Autor
@@ -36,7 +36,7 @@ def sel2(lista):
     except:
         lista.append(driver.find_element("css selector","#bookTitle").text)
 
-
+#This is aswell a part of my Seleneum function.
 def sel(lista):
         try:
             driver.implicitly_wait(2)
